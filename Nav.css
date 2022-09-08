@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+}
+
+
+nav{
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    padding: 20px ;
+    background-color: darkcyan;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo{
+    
+flex: 1 10%;
+text-transform: uppercase;
+font-size: 1.4em;
+transition: box-shadow 1s, border-radius 0.25s;
+text-align: center;
+
+
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+.logo h1{
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.logo h1:visited{
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.logo:hover{
+    cursor: pointer;
+    color: aqua;
+    
+    box-shadow:0em 0em 0.6em 0.4em cyan;
+    border-radius: 25px;
+}
+
+.logo:active{
+    color: yellow;
+    box-shadow:0em 0em 0.6em 0.4em yellow;
+}
+
+li{
+    
+    padding: 0.5em;
+    
+    list-style: none;
+    
+    transition: all 0.25s;
+ 
+}
+
+li:hover{
+    cursor: pointer;
+    color: rgb(0, 255, 242);
+    transform: translateY(-5px)  ;
+   border-bottom: 0.15em solid white;
+    box-shadow: 0em 0.5em 0.3em -0.4em rgb(0, 255, 242);
+    
+    
+}
+
+li:active{
+    color:yellow;
+    box-shadow: 0em 0.5em 0.3em -0.4em yellow;
+}
+
+
+.navbar{
+    flex:1 60%;
+    font-size: 1.2em; 
+    max-height: 2em;
+      
+}              
+
+.navbar ul{
+    
+   display: flex;
+    justify-content: space-evenly;
+   
+  
+    
+}
+
+.searchbar{
+    flex: 1 20%;
+    text-align: center;
+    font-size: 1.1em; 
+}
+
+.searchbar input{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 4px 10px;
+    margin-top: 0.4em;
+
+    
+}
+
+
+.searchbar:hover{
+    color: rgb(0, 255, 242);
+}
+
+.searchbar:active{
+    color: yellow;
+}
